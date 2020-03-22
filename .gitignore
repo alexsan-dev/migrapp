@@ -3,3 +3,15 @@ node_modules/
 test/integration/screenshots-current/
 _site/
 .DS_Store
+/backend/public/hot
+/backend/public/storage
+/backend/public/js/chunks
+/backend/storage/*.key
+/backend/vendor
+/backend/.env
+/backend/.env.backup
+/backend/.phpunit.result.cache
+/backend/Homestead.json
+/backend/Homestead.yaml
+/backend/npm-debug.log
+/backend/yarn-error.log
