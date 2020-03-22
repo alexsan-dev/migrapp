@@ -1,5 +1,5 @@
 
-> ## Status: No longer under development
+> ## Status: En desarrollo
 > 
 > Este proyecto esta en desarrollo
 >
