@@ -1,13 +1,11 @@
-[![Built with pwa–starter–kit](https://img.shields.io/badge/built_with-pwa–starter–kit_-blue.svg)](https://github.com/Polymer/pwa-starter-kit "Built with pwa–starter–kit")
-[![Build status](https://api.travis-ci.org/Polymer/pwa-starter-kit.svg?branch=master)](https://travis-ci.org/Polymer/pwa-starter-kit)
 
 > ## Status: No longer under development
 > 
-> This  project is no longer under development.
+> Este proyecto esta en desarrollo
 >
-> If you're interested in continuing to use PWA Starter Kit, feel free to fork and modify it as you like.
+> Si esta interesado en contribuir, puede hacerlo dejando las mejoras del mismo (Comunidad UVG).
 >
-> If you want to start a new application project using LitElement, the [open-wc application scaffold generator](https://open-wc.org/init/) is one good starting point.
+> If you want to start a new application project using LitElement, the [ application scaffold generator]
 
 # PWA Starter Kit
 
@@ -24,9 +22,6 @@ gives you the following features:
 - unit and integrating testing starting points
 - documentation about other advanced patterns.
 
-### 📖 Head over to the [documentation site](https://pwa-starter-kit.polymer-project.org/) for more details or check out [how to get started](https://pwa-starter-kit.polymer-project.org/setup)!
-
-![pwa-starter-kit screenshot](https://user-images.githubusercontent.com/1369170/39715580-a1be5126-51e2-11e8-8440-96b07be03a3c.png)
 
 ## TODOs
 
