@@ -17,8 +17,8 @@ class SnackBar extends LitElement {
           left: 0;
           right: 0;
           padding: 12px;
-          background-color: var(--app-secondary-color);
-          color: white;
+          background-color: #c4e86b;
+          color: #00bcb4;
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
           text-align: center;
           will-change: transform;

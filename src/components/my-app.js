@@ -115,20 +115,21 @@ class MyApp extends connect(store)(LitElement) {
           width: 100%;
           height: 100%;
           padding: 24px;
-          background: var(--app-drawer-background-color);
+          background: #1b2727;
           position: relative;
+          font-weight: bold;
         }
 
         .drawer-list > a {
           display: block;
           text-decoration: none;
-          color: var(--app-drawer-text-color);
+          color: #6b8e4e;
           line-height: 40px;
           padding: 0 24px;
         }
 
         .drawer-list > a[selected] {
-          color: var(--app-drawer-selected-color);
+          color: #d5dddf;
         }
 
         /* Workaround for IE11 displaying <main> as inline */
@@ -138,7 +139,7 @@ class MyApp extends connect(store)(LitElement) {
 
         .main-content {
           padding-top: 64px;
-          min-height: 100vh;
+          min-height: 90vh;
         }
 
         .page {
@@ -188,7 +189,7 @@ class MyApp extends connect(store)(LitElement) {
       <app-header condenses reveals effects="waterfall">
         <app-toolbar class="toolbar-top">
           <button class="menu-btn" title="Menu" @click="${this._menuButtonClicked}">${menuIcon}</button>
-          <div main-title>${this.appTitle}</div>
+          <div main-title>Migrapp</div>
         </app-toolbar>
 
         <!-- This gets hidden on a small screen-->
@@ -205,7 +206,7 @@ class MyApp extends connect(store)(LitElement) {
           @opened-changed="${this._drawerOpenedChanged}">
         <nav class="drawer-list">
           <a ?selected="${this._page === 'home'}" href="/home">Inicio</a>
-          <a ?selected="${this._page === 'environment'}" href="/envir0noment">Ambientes</a>
+          <a ?selected="${this._page === 'environment'}" href="/environment">Ambientes</a>
           <a ?selected="${this._page === 'location'}" href="/location">Recorridos</a>
         </nav>
       </app-drawer>
@@ -218,13 +219,13 @@ class MyApp extends connect(store)(LitElement) {
         <my-view404 class="page" ?active="${this._page === 'view404'}"></my-view404>
       </main>
 
-      <footer>
+      <!-- <footer>
         <p>Made with &hearts; by the Polymer team.</p>
       </footer>
 
       <snack-bar ?active="${this._snackbarOpened}">
         You are now ${this._offline ? 'offline' : 'online'}.
-      </snack-bar>
+      </snack-bar> -->
     `;
   }
 

@@ -3,7 +3,7 @@
 
 self.addEventListener('fetch', event => {
 
-    console.log(event)
+    // console.log(event)
 
     if (event.request.url.includes('.css')) {
         event.respondWith(null)

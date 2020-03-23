@@ -6,7 +6,7 @@ export const CLOSE_SNACKBAR = 'CLOSE_SNACKBAR';
 
 // Funciones del path
 export const navigate = (path) => (dispatch) => {
-  const page = path === '/' ? 'inicio' : path.slice(1);
+  const page = path === '/' ? 'home' : path.slice(1);
 
   // Any other info you might want to extract from the path (like page type),
   // you can do here
@@ -18,23 +18,20 @@ export const navigate = (path) => (dispatch) => {
 
 const loadPage = (page) => (dispatch) => {
   switch(page) {
-    case 'inicio':
+    case 'home':
       import('../components/my-home.js').then((module) => {
         // Put code in here that you want to run every time when
         // navigating to view1 after my-view1.js is loaded.
       });
       break;
-    case 'home':
-      import('../components/my-home.js');
-      break;
     case 'data':
-      import('../components/my-view3.js');
+      import('../components/data.js');
       break;
     case 'environment':
-      import('../components/my-view3.js');
+      import('../components/environment.js');
       break;
     case 'location':
-      import('../components/my-view3.js');
+      import('../components/location.js');
       break;
     default:
       page = 'view404';
